@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <circle id="brandEnvironmentIconA" cx="15" cy="16" r="8"/>
+        <mask id="brandEnvironmentIconC" width="18" height="18" x="-1" y="-1">
+            <path fill="#fff" d="M6 7h18v18H6z"/>
+            <use xlink:href="#brandEnvironmentIconA"/>
+        </mask>
+        <circle id="brandEnvironmentIconB" cx="14" cy="15" r="10"/>
+        <mask id="brandEnvironmentIconD" width="22" height="22" x="-1" y="-1">
+            <path fill="#fff" d="M3 4h22v22H3z"/>
+            <use xlink:href="#brandEnvironmentIconB"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use stroke="#9E64E6" stroke-dasharray="1" stroke-width="2" mask="url(#brandEnvironmentIconC)" xlink:href="#brandEnvironmentIconA"/>
+        <circle cx="14" cy="15" r="13" fill="#FFF"/>
+        <circle cx="18" cy="18" r="13" fill="#E5D1FF"/>
+        <text fill="#FAF6FF" font-family="Courier-Bold, Courier" font-size="18" font-weight="bold" letter-spacing="-.263" transform="rotate(-15 15.444 13.982)">
+            <tspan x="9.944" y="20.982">B</tspan>
+        </text>
+        <use stroke="#9E64E6" stroke-dasharray="1" stroke-width="2" mask="url(#brandEnvironmentIconD)" xlink:href="#brandEnvironmentIconB"/>
+        <circle cx="14" cy="15" r="13.5" stroke="#3E0A7D"/>
+        <text fill="#3E0A7D" font-family="Courier-Bold, Courier" font-size="18" font-weight="bold" letter-spacing="-.263" transform="rotate(-15 13.444 12.982)">
+            <tspan x="7.944" y="19.982">B</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <circle id="replaceNoticeIconB" cx="15" cy="15" r="13"/>
+        <filter id="replaceNoticeIconA" width="130.8%" height="130.8%" x="-9.6%" y="-9.6%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+            <feOffset dx="3" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.898 0 0 0 0 0.82 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        <filter id="replaceNoticeIconC" width="126.9%" height="126.9%" x="-7.7%" y="-7.7%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.941744267 0 0 0 0 0.896932165 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="14" cy="14" r="12" fill="#FFF"/>
+        <use fill="#000" filter="url(#replaceNoticeIconA)" xlink:href="#replaceNoticeIconB"/>
+        <use fill="#FFF" xlink:href="#replaceNoticeIconB"/>
+        <use fill="#000" filter="url(#replaceNoticeIconC)" xlink:href="#replaceNoticeIconB"/>
+        <circle cx="15" cy="15" r="13.5" stroke="#420386"/>
+        <circle cx="15" cy="15" r="9.5" fill="#FFF" stroke="#6415B7"/>
+        <path fill="#6415B7" d="M15 6a9 9 0 0 1 8.999 8.851L24 15l-.001.149a9 9 0 0 1-8.736 8.847L15 24V6z"/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <path id="chevronUpA" d="M11.073 8.2l.52-.416L6 .792.406 7.784l.521.416L6 1.86z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(2 3)">
+        <mask id="chevronUpB" fill="#fff">
+            <use xlink:href="#chevronUpA"/>
+        </mask>
+        <g fill="#65686B" mask="url(#chevronUpB)">
+            <path d="M-2-3h16v16H-2z"/>
+        </g>
+    </g>
+</svg>

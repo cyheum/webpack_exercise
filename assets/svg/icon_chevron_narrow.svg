@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"
+  viewBox="0 0 20 20">
+  <defs>
+    <path id="iconChevronNarrowA" d="M16.712 12L7.2 4.39l.624-.78L18.312 12 7.824 20.39l-.624-.78z" />
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="iconChevronNarrowB" fill="#fff">
+      <use xlink:href="#iconChevronNarrowA" />
+    </mask>
+    <g fill="#000" mask="url(#iconChevronNarrowB)">
+      <path d="M0 0h24v24H0z" />
+    </g>
+  </g>
+</svg>

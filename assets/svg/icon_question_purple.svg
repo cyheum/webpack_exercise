@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <path id="questionPurpleA" d="M8 .5a7.5 7.5 0 1 1 0 15 7.5 7.5 0 0 1 0-15zM8.75 11h-1.5v1.5h1.5V11zm-.71-7.5c-.8 0-1.465.265-1.994.794-.53.53-.905 1.391-.854 2.245h1.39c.19-1.086.69-1.628 1.504-1.628.378 0 .733.13.92.31.186.182.372.428.372.734 0 .233-.049.408-.145.584-.097.176-.365.448-.844.923-.43.422-.72.809-.87 1.16-.15.352-.224.811-.224 1.378l.006.422H8.68c-.009-.51.025-.864.102-1.062.077-.197.276-.459.597-.784.624-.628 1.01-1.071 1.2-1.434.188-.363.28-.718.233-1.392-.032-.46-.264-1.012-.741-1.452A3.071 3.071 0 0 0 8.04 3.5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-140-1490h375v5958h-375z"/>
+        <g transform="translate(1 1)">
+            <mask id="questionPurpleB" fill="#fff">
+                <use xlink:href="#questionPurpleA"/>
+            </mask>
+            <use fill="#000" fill-rule="nonzero" xlink:href="#questionPurpleA"/>
+            <g fill="#8137D6" mask="url(#questionPurpleB)">
+                <path d="M-1-1h18v18H-1z"/>
+            </g>
+        </g>
+    </g>
+</svg>

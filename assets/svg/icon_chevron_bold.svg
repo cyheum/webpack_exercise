@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="ChveronBoldIconA" d="M15.423 12L6.4 4.78l1.25-1.56L18.625 12 7.649 20.78l-1.25-1.56z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="ChveronBoldIconB" fill="#fff">
+      <use xlink:href="#ChveronBoldIconA"/>
+    </mask>
+    <use fill="#000" fill-rule="nonzero" xlink:href="#ChveronBoldIconA"/>
+    <g fill="#000" mask="url(#ChveronBoldIconB)">
+      <path d="M0 0h24v24H0z"/>
+    </g>
+  </g>
+</svg>

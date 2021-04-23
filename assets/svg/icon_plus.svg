@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Icon/Outline/1px/Plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="plusPathA" d="M12.5,2 L12.5,11.5 L22,11.5 L22,12.5 L12.5,12.5 L12.5,22 L11.5,22 L11.5,12.5 L2,12.5 L2,11.5 L11.5,11.5 L11.5,2 L12.5,2 Z"></path>
+    </defs>
+    <g id="Icon/Outline/1px/Plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="plusPathB" fill="white">
+            <use xlink:href="#plusPathA"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="icon-plus" mask="url(#plusPathB)" fill="#000000">
+            <rect id="Rectangle-7" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

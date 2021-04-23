@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="circleLogoA" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zM6.043 9.051H14v3.587c0 2.022-1.178 3.274-2.904 3.357l-.212.005c-2.069 0-3.141-1.58-3.141-3.55v-.736h1.749v.798c0 .91.52 1.463 1.22 1.525l.159.006c.882 0 1.354-.602 1.354-1.568v-1.493H5.983A.974.974 0 0 1 5 10.017c0-.534.5-.966 1.043-.966zM7.324 5c.65 0 1.178.518 1.178 1.157 0 .64-.528 1.157-1.178 1.157-.65 0-1.178-.517-1.178-1.157C6.146 5.518 6.674 5 7.324 5zm4.826 0c.651 0 1.178.518 1.178 1.157 0 .64-.527 1.157-1.178 1.157-.65 0-1.178-.517-1.178-1.157C10.972 5.518 11.5 5 12.15 5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+        <mask id="circleLogoB" fill="#fff">
+            <use xlink:href="#circleLogoA"/>
+        </mask>
+        <use fill="#000" fill-rule="nonzero" xlink:href="#circleLogoA"/>
+        <path fill="#6415B7" d="M-2-2h24v24H-2z" mask="url(#circleLogoB)"/>
+    </g>
+</svg>

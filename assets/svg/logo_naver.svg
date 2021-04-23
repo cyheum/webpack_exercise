@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <path id="logoNaverA" d="M0 0L20 0 20 20 0 20z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="logoNaverB" fill="#fff">
+            <use xlink:href="#logoNaverA"/>
+        </mask>
+        <path fill="#FFF" class="fill" d="M15 14.578h-3.41l-3.226-4.74v4.74H5V5.423H8.41l3.226 4.738V5.423H15v9.155zM0 20h20V0H0v20z" mask="url(#logoNaverB)"/>
+    </g>
+</svg>

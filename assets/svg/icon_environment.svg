@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="environmentPathA" d="M14 4.65l7 6.372V21H3V3.02l5.5 4.377V3.933L14 8.355V4.65zM19 19v-7.092l-3-2.747v3.363L10.5 8.1v3.432L5 7.157V19h14z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h24v24H0z"/>
+        <mask id="environmentPathB" fill="#fff">
+            <use xlink:href="#environmentPathA"/>
+        </mask>
+        <use fill="#000" fill-rule="nonzero" xlink:href="#environmentPathA"/>
+        <g fill="#000" mask="url(#environmentPathB)">
+            <path d="M0 0h24v24H0z"/>
+        </g>
+    </g>
+</svg>
