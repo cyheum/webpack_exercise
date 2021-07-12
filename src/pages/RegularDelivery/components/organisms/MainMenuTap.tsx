@@ -12,6 +12,9 @@ export const MainMenuTap: React.FC<IProps> = ({
   isClickedAt,
   onClickMenuTapToggle,
 }) => {
+  console.log('hi');
+  console.log('hello');
+
   return (
     <STDContainer>
       {MENU_TAP.map(({ title, fontWeight }) => {

@@ -114,9 +114,11 @@ const Random: React.FC = () => {
         <STDInputText onChange={(e) => setItem(e.target.value)} value={item} />
         <STDAddButton
           onClick={() => {
-            const newItems = [...items, item];
-            setItems(newItems);
-            setItem('');
+            if (item.length > 0) {
+              const newItems = [...items, item];
+              setItems(newItems);
+              setItem('');
+            }
           }}
         >
           추가
