@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Header } from '@/components';
 import { MainMenuTap } from '../components';
@@ -12,6 +12,19 @@ const IntroScreen: React.FC<IProps> = ({
   mainMenuClickedAt,
   onClickMainMenuToggle,
 }) => {
+  const [test, settest] = useState<any>(null);
+
+  useEffect(() => {
+    fetch('./test.html')
+      .then((r) => {
+        console.log(r);
+        return r.text();
+      })
+      .then((t) => console.log(t));
+  }, []);
+
+  console.log();
+
   return (
     <>
       <STDBackBanner />
@@ -21,6 +34,7 @@ const IntroScreen: React.FC<IProps> = ({
           isClickedAt={mainMenuClickedAt}
           onClickMenuTapToggle={onClickMainMenuToggle}
         />
+        {/* <div dangerouslySetInnerHTML={{ __html: test }} /> */}
       </STDContainer>
     </>
   );

@@ -6,22 +6,20 @@ const webpack = require('webpack');
 
 module.exports = {
   mode: devMode ? 'production' : 'development',
-  devtool: devMode ? 'hidden-source-map' : 'eval',
+  devtool: devMode ? 'cheap-module-source-map' : 'eval',
   entry: './src/index.tsx',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: '[name].[hash].js',
-    publicPath: '/',
+    filename: 'bundle.[chunkhash].js',
   },
-
   resolve: {
+    modules: ['node_modules'],
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '@svg': path.resolve(__dirname, 'assets/svg/index'),
     },
   },
-
   module: {
     rules: [
       {
@@ -37,10 +35,10 @@ module.exports = {
 
   devServer: {
     historyApiFallback: true,
-    inline: true,
-    port: 4000,
+    host: 'localhost',
+    compress: true,
     hot: true,
-    publicPath: '/',
+    port: 3000,
   },
 
   plugins: [

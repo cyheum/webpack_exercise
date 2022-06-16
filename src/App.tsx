@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { RegularDeliveryContainer, Random } from '@/pages';
+import { RegularDeliveryContainer, Random, Test } from '@/pages';
 import Layout from '@/systems/Layout/Layout';
 
 class Routes extends Component {
@@ -11,6 +11,7 @@ class Routes extends Component {
         <Switch>
           <Route exact path="/main" component={RegularDeliveryContainer} />
           <Route exact path="/" component={Random} />
+          <Route exact path="/test" component={Test} />
         </Switch>
         {/* </Layout> */}
       </Router>
